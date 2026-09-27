@@ -3,6 +3,11 @@ Application configuration module.
 Defines model parameters, iteration thresholds, and role-based access rules.
 """
 import os
+from pathlib import Path
+from dotenv import load_dotenv
+
+env_path = Path(__file__).resolve().parent / ".env"
+load_dotenv(dotenv_path=env_path)
 LLM_MODEL = "qwen3:4b"
 MAX_ITERATIONS = 5
 

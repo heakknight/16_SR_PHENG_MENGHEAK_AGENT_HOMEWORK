@@ -9,7 +9,7 @@ __pycache__/
 *$py.class
 
 # Environment variables & local secrets
-.env
 
 # VS Code settings
-.vscode/
+config.bat
+node_modules

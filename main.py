@@ -3,6 +3,10 @@ Application entry point module.
 Provides an interactive CLI session to test conversational and tool-calling execution paths.
 """
 
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 from agent import run_agent
 
 def start_interactive_session():
